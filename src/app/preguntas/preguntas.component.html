@@ -1,0 +1,12 @@
+<div class="titProd">Preguntas Frecuentes</div>
+<div class="pregScroll">
+<div class="contentPreg" >
+    <div class="cardPreg" *ngFor="let p of Preg;let pos=index">
+        <div class="preg">
+            <hr>
+            <p class="pregunta">{{p.preg}}</p>     
+            <p class="respuesta">{{p.resp}}</p>
+         </div>
+    </div>
+</div>
+</div>

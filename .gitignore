@@ -1,0 +1,9 @@
+node_modules/
+instrucciones/
+.angular/
+.git/
+
+# Firebase
+.firebase
+*-debug.log
+.runtimeconfig.json

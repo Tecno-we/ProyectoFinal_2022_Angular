@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "tecnologias-web-uaa"
+  },
+  "targets": {
+    "tecnologias-web-uaa": {
+      "hosting": {
+        "ProyectoFinalTecnoWeb": [
+          "tecnologias-web-uaa"
+        ]
+      }
+    }
+  }
+}

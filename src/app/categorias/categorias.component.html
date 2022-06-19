@@ -1,0 +1,38 @@
+
+<div class="content" >
+    <div class="cardC" routerLinkActive="active" *ngFor="let c of Cat; let pos = index" >
+       <a class="cat" [routerLink]="[c]" title="{{c}}"><p><img src="../../assets/img/categorias/{{c}}.jpeg" alt=""></p> </a>
+    </div>
+   
+    <div class="usuYcarrito"><span class="nombr"> </span><span (click)="login()" class="out">login</span>
+        <div class="divCarr" routerLinkActive="active">            
+            <a [routerLink]="['carrito']">
+                <fa-icon class="fa-3x"  [icon]="iconoCarrito"></fa-icon>
+            </a> 
+        </div>
+    </div>
+</div> 
+
+
+<form id="loginForm" class="ocultar">
+    <h2>Registro de Usuarios</h2>
+    <fieldset>
+        <p><input type="text" id="logNom" placeholder="Nombre Completo"/></p>
+        <p><input type="text" id="logCorreo" placeholder="Correo Electrónico"/> </p>
+        <p><input type="text" id="logUsuario" placeholder="Usuario"/></p>
+        <p><input type="password" id="contra1" placeholder="Contraseña"/> </p>
+        <p><input type="password" id="contra2" placeholder="Confirmar Contraseña"/> </p>
+        <input (click)="registro()" type="button" value="Registrar"/>
+    </fieldset>
+</form>
+
+
+<form id="loginForm1" class="ocultar">
+    <h2>Login</h2>
+    <fieldset>
+        <p><input type="text" id="_usu" placeholder="Usuario"/></p>
+        <p><input type="password" id="_contra" placeholder="Contraseña"/> </p>
+        <input (click)="entrar()" type="button" value="Entrar"/>
+        <div (click)="Registrar()">Registrar</div>
+    </fieldset>
+</form>

@@ -1,0 +1,17 @@
+.pregScroll {
+    position: absolute;
+    overflow-y: auto;
+    height: calc(100% - 220px);
+    padding:0 5%;
+}
+.preg{
+    font-size: 20px;
+    padding: 0 20%;
+}
+.pregunta{
+    font-weight: bold;
+}
+.respuesta{
+    font-size: 15px;
+    padding: 0 2%;
+}

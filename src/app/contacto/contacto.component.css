@@ -1,0 +1,30 @@
+.contentContact{
+    position:relative;
+    width: 100%;
+    text-align: center;
+}
+#correo{
+    width: 480px;
+    height: 30px;
+    font-family: "Century Gothic";
+}
+textarea{
+    width: 600px;
+    height: 200px;
+    font-family: "Century Gothic";
+    font-size: 15px;
+}
+#env{
+    width: 100px;
+    height: 30px;
+    font-family: "Century Gothic";
+    font-size: 16px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 2px;
+    cursor: pointer;
+}
+#env:hover{
+    background-color: darkseagreen;
+  
+}

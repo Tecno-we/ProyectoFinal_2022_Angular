@@ -1,0 +1,126 @@
+html,body{
+    margin:0;
+    padding: 0px;
+    background-color: white;
+    color:black;
+    font-family: 'Century Gothic';
+    font-size:12px;
+    overflow: hidden;
+}
+
+hr {
+  color:gray;
+  width: 90%;
+  height: 0px;
+  
+}
+.card{
+  display: inline-grid;
+  width: 80px;
+  font-family: "Century Gothic";
+  padding: 2px;
+  margin: 3px 10px;
+  border:1px solid rgb(0, 0, 0);
+  color:black;
+  border-radius: 5px;
+  background: white;
+}
+.card div{
+  position:relative;
+  display: flex;
+  padding: 5px 25px;
+}
+.nom{
+  text-align: center;
+  font-size: 10px;
+  font-weight: bold;
+  padding: 5px;
+  background: rgba(250, 42, 0, 0.642);
+}
+.demas span{
+  text-align:center;
+  padding: 5px;
+   font-size: smaller;
+}
+.card:hover{
+  cursor:pointer;
+  background: rgba(59, 58, 58, 0.8);
+  color:rgb(255, 255, 255);
+  border:1px solid white;
+}
+
+
+
+.prod{
+  width: fit-content;
+  padding: 15px;
+  text-align: center;
+}
+.prod img{
+  width: 330px;
+}
+.cardCat{
+  width:350px; 
+  margin: 5px 15px;
+  display: inline-flex;
+  border: 1px solid rgb(110, 110, 110);
+  border-radius:5px;
+  cursor:pointer;
+  background: white;
+}
+.cardCat:hover{
+  border:3px double red;
+  margin: 3px 13px;
+}
+.nomProd{
+ font-size: 18px;
+}
+.contentProd{
+  padding-left: 10%;
+  background-color: rgb(195, 195, 195);
+}
+.palScroll{
+  position: absolute;
+  overflow-y:scroll;
+  height: calc(100% - 220px);
+
+}
+.titProd{
+  font-size: 40px;
+  font-weight:500;
+  text-align: center;
+  text-shadow: 2px 1px gray;
+}
+.prod hr{
+  color:gray;
+  width: 100%;
+  height: 0px;
+}
+.pop{
+  
+  width: 95%;
+  height: 100%;
+  overflow-y: auto;
+  text-align: center;
+  align-items: center;
+}
+.pop p img{
+  padding-right: 5px;
+  width: 85%;
+}
+.ajs-button{
+  
+}
+
+
+
+.precio{
+  color:darkgreen;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+
+.ocultar{
+  display: none;
+}
