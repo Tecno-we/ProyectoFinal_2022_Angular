@@ -17,6 +17,9 @@ import { provideDatabase,getDatabase } from '@angular/fire/database';
 import { provideFirestore,getFirestore } from '@angular/fire/firestore';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { CarritoComponent } from './carrito/carrito.component';
+import { JugueteriaComponent } from './categorias/jugueteria/jugueteria.component';
+import { HogarComponent } from './categorias/hogar/hogar.component';
+import { FarmaciaComponent } from './categorias/farmacia/farmacia.component';
 
 
 
@@ -32,7 +35,10 @@ import { CarritoComponent } from './carrito/carrito.component';
     CategoriasComponent,
     ElectronicaComponent,
     MascotasComponent,
-    CarritoComponent
+    CarritoComponent,
+    JugueteriaComponent,
+    HogarComponent,
+    FarmaciaComponent
 
   ],
   imports: [

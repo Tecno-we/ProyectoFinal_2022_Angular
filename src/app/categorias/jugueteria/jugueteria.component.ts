@@ -3,11 +3,11 @@ import { MiBDService } from 'src/app/mi-bd.service';
 import * as $ from 'jquery';
 
 @Component({
-  selector: 'app-mascotas',
-  templateUrl: './mascotas.component.html',
-  styleUrls: ['./mascotas.component.css']
+  selector: 'app-jugueteria',
+  templateUrl: './jugueteria.component.html',
+  styleUrls: ['./jugueteria.component.css']
 })
-export class MascotasComponent {
+export class JugueteriaComponent {
   $:any=$;
   alertify:any;
   Prod:any=[]
@@ -24,12 +24,13 @@ export class MascotasComponent {
       let desc = v1[1].split(":")[1].replaceAll("'","")
       let id = v1[2].split(":")[1].replaceAll("'","")
       let precio = v1[4].split(":")[1].replaceAll("'","")
-      if (cat=="Mascotas")
+      if (cat=="Jugueteria")
         this.Prod.push({nom:nom,precio:precio,desc:desc,id:id})
     }
   }
   verProd(p:any,id:any):any{
    
-    this.alertify.Operador($(p),id.id).set('title','Departamento de Mascotas').set({frameless:false});
+    this.alertify.Operador($(p),id.id).set('title','Departamento de Jugueteria').set({frameless:false});
   }
+
 }

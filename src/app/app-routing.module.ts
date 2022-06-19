@@ -7,6 +7,9 @@ import { MenuComponent } from './menu/menu.component';
 import { CategoriasComponent } from './categorias/categorias.component';
 import { ElectronicaComponent } from './categorias/electronica/electronica.component';
 import { MascotasComponent } from './categorias/mascotas/mascotas.component';
+import { JugueteriaComponent } from './categorias/jugueteria/jugueteria.component';
+import { HogarComponent } from './categorias/hogar/hogar.component';
+import { FarmaciaComponent } from './categorias/farmacia/farmacia.component';
 
 const routes: Routes = [
   {path:"home", component:HomeComponent},
@@ -16,6 +19,9 @@ const routes: Routes = [
   {path:"categorias", component:CategoriasComponent},
   {path:"Electronica", component:ElectronicaComponent},
   {path:"Mascotas", component:MascotasComponent},
+  {path:"Jugueteria", component:JugueteriaComponent},
+  {path:"Hogar", component:HogarComponent},
+  {path:"Farmacia", component:FarmaciaComponent},
   {path: '**', pathMatch: 'full', redirectTo: 'home'}
   
 ];
