@@ -20,6 +20,8 @@ import { CarritoComponent } from './carrito/carrito.component';
 import { JugueteriaComponent } from './categorias/jugueteria/jugueteria.component';
 import { HogarComponent } from './categorias/hogar/hogar.component';
 import { FarmaciaComponent } from './categorias/farmacia/farmacia.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { QRCodeModule } from 'angularx-qrcode';
 
 
 
@@ -45,10 +47,12 @@ import { FarmaciaComponent } from './categorias/farmacia/farmacia.component';
     BrowserModule,
     AppRoutingModule,
     FontAwesomeModule,
+    QRCodeModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideAuth(() => getAuth()),
     provideDatabase(() => getDatabase()),
-    provideFirestore(() => getFirestore())
+    provideFirestore(() => getFirestore()),
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
