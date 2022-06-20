@@ -121,5 +121,7 @@
       }
     }
   },
-  "defaultProject": "ProyectoFinalTecnoWeb"
+  "cli": {
+    "analytics": "d85a1097-a2b6-4eda-aa31-227c7f18363a"
+  }
 }

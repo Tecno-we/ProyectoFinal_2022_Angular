@@ -83,7 +83,11 @@ export class CategoriasComponent implements OnInit {
 
   }
 
-
+QR():any{
+  $("#qr").removeClass("ocultar")
+  this.alertify.minimalDialog($('#qr')[0]).set("title","QR");
+  
+}
 
   Registrar():void{
     $(".ajs-close").click();

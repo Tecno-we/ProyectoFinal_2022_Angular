@@ -36,7 +36,7 @@ img{
 .content{
     display: flex !important;
     position: relative;
-    font-size:12px;
+    font-size:11px;
     padding: 1px;
 }
 a{
@@ -108,4 +108,13 @@ a{
 
 #loginForm fieldset,#loginForm1 fieldset{
     text-align: center;
+}
+.qr{
+ cursor: pointer;
+}
+
+#qr{
+    width: 300px;
+    height: 300px;
+    cursor:pointer;
 }

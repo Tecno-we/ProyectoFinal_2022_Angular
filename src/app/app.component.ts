@@ -89,6 +89,16 @@ alertify.genericDialog || alertify.dialog('genericDialog',function(){
 
 
 
+
+alertify.minimalDialog || alertify.dialog('minimalDialog',function(){
+  return {
+      main:function(content:any){
+        alertify.minimalDialog().setContent(content); 
+      }
+  };
+});
+
+
 }
 
 }
